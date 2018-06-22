@@ -1,0 +1,21 @@
+{
+	"GameCardId":"LOOT_333",
+	"ConfigComment":"Level Up! settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"If we have 1 or less recruits don't play",
+				"condition": "my_minions(count(), cardid = CS2_101t) < 2",
+				"value":"-50",
+			},
+			{
+				"comment":"If we have 2+ recruits out it's worth more dynamically",
+				"condition": "*",
+				"value":"20 * my_minions(count(), cardid = CS2_101t)",
+			}
+		],
+	}
+}

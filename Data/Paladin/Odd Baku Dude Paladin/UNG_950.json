@@ -1,0 +1,21 @@
+{
+	"GameCardId":"UNG_950",	
+	"ConfigComment":"Vinecleaver config.",	
+
+	"BeforePhysicalAttackBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"If we are attacking the other hero give a buff",
+				"condition":"my_target(count(), minion = false) > 0",
+				"value":"25",
+			},
+			{
+				"comment":"If we have 6 or 7 minions don't attack",
+				"condition":"my_minions(count()) > 5",
+				"value":"-25",
+			}
+		],
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"GameCardId":"GIL_561",	
+	"ConfigComment":"Blackwald Pixie config.",	
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Gains value if we have face combo",  		  
+				"condition": "my_hero(count(), mana >= 7) > 0",
+				"value":"80",
+			}
+		],
+	},
+	
+	"InHandBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"This card is very valuable to hold until turn 7+ (Credits to spyscouter)",  		  
+				"condition": "my_hero(count(), mana >= 7) > 0",
+				"value":"80",
+			}
+		],
+	}
+}

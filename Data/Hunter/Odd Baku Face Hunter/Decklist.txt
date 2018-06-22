@@ -1,0 +1,42 @@
+### Odd Baku Face Hunter
+# Class: Hunter
+# Format: Standard
+# Year of the Raven
+#
+# 2x (1) Abusive Sergeant
+# 2x (1) Acherus Veteran
+# 2x (1) Arcane Shot
+# 2x (1) Candleshot
+# 2x (1) Dire Mole
+# 2x (1) Fire Fly
+# 2x (1) Glacial Shard
+# 2x (1) Southsea Deckhand
+# 2x (3) Animal Companion
+# 2x (3) Blackwald Pixie
+# 2x (3) Eaglehorn Bow
+# 1x (3) Ironbeak Owl
+# 2x (3) Kill Command
+# 2x (3) Unleash the Hounds
+# 2x (3) Wolfrider
+# 1x (9) Baku the Mooneater
+# 
+AAECAR8CogKe+AIO8gGhAqgCtQPUBe0G2wn+DJfBAuvCApXOAuHjAovlAuXvAgA=
+# 
+# To use this deck, copy it to your clipboard and create a new deck in Hearthstone
+
+Abusive Sergeant	x2	CS2_188
+Acherus Veteran	x2	ICC_092
+Arcane Shot	x2	DS1_185
+Candleshot	x2	LOOT_222
+Dire Mole	x2	LOOT_258
+Fire Fly	x2	UNG_809
+Glacial Shard	x2	UNG_205
+Southsea Deckhand	x2	CS2_146
+Animal Companion	x2	NEW1_031
+Blackwald Pixie	x2	GIL_561
+Eaglehorn Bow	x2	EX1_536
+Ironbeak Owl	x1	CS2_203
+Kill Command	x2	EX1_539
+Unleash the Hounds	x2	EX1_538
+Wolfrider	x2	CS2_124
+Baku the Mooneater	x1	GIL_826

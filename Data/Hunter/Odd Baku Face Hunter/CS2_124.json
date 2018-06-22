@@ -1,0 +1,16 @@
+{
+	"GameCardId":"CS2_124",	
+	"ConfigComment":"Wolfrider config.",	
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Incentive to use if they have no taunt minions",  		  
+				"condition": "opp_minions(count(), taunt = true) < 1",
+				"value":"20",
+			}
+		],
+	},
+}

@@ -1,0 +1,25 @@
+// This File: deck.txt
+//    Author: FingerSkater
+//   Version: 0.1 (29-Jun-2016)
+// Deck Name: Standard Midrange Hunter
+//      Hero: Hunter
+// Deck Type: Midrange (Control)
+
+// Cards
+Fiery Bat	x2
+King's Elekk	x2
+Quick Shot	x2
+Animal Companion	x2
+Carrion Grub	x1
+Deadly Shot	x1
+Eaglehorn Bow	x2
+Kill Command	x2
+Unleash the Hounds	x2
+Houndmaster	x2
+Infested Wolf	x2
+Tundra Rhino	x1
+Savannah Highmane	x2
+Call of the Wild	x2
+Flame Juggler	x2
+Huge Toad	x2
+Stampeding Kodo	x1

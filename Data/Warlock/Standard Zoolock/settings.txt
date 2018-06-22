@@ -1,0 +1,28 @@
+// This File: Settings.txt
+//    Author: Sepefeets
+//   Version: 0.1 (10-Jun-16)
+// Deck Name: Zoolock
+//      Hero: Warlock
+// Deck Type: Zoo (Aggro)
+
+enfacehp = 29;
+maxwide = 5000;
+twotsamount = 250;
+simEnemySecondTurn = true;
+playarround = false;
+playaroundprob = 30;
+playaroundprob2 = 50;
+enemyTurnMaxWideSecondTime = 160;
+enemyTurnMaxWide = 16;
+enemySecondTurnMaxWide = 16;
+nextTurnDeep = 6;
+nextTurnMaxWide = 16;
+nextTurnTotalBoards = 160;
+useSecretsPlayArround = true;
+alpha = 50;
+simulatePlacement = true; 
+useExternalProcess = true;
+passiveWaiting = false;
+behave = control;
+concedeOnBadBoard = false;
+speed = false;

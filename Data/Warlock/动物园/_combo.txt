@@ -1,0 +1,16 @@
+// This File: _combo.txt
+// Author: scottbreak
+// Version: 0.1 (22-Jun-16)
+// Deck Name: Standard Zoolock
+// Hero: Warlock
+// Deck Type: Control
+
+
+// Cardvalue Leeroy Jenkins
+cardvalue:EX1_116,30
+
+//Knife Juggler (NEW1_019) + Forbidden Ritual (OG_114)
+NEW1_019,0;OG_114,0;mana:5;bonus:25;hero:warlock
+
+//Darkshire Councilman (OG_113) + Forbidden Ritual (OG_114)
+OG_113,0;OG_114,0;mana:6;bonus:50;hero:warlock 

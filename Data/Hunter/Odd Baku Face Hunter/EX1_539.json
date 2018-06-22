@@ -1,0 +1,21 @@
+{
+	"GameCardId":"EX1_539",	
+	"ConfigComment":"Kill Command config.",	
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Try to play with a beast on board",  		  
+				"condition": "my_minions(count(), beast=true) < 1",
+				"value":"-5",
+			},
+			{
+				"comment":"If the enemy has 2+ minions use to clear",  		  
+				"condition": "opp_minions(count()) > 2",
+				"value":"15",
+			}
+		],
+	},
+}

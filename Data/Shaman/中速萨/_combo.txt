@@ -1,0 +1,36 @@
+// This File: _combo.txt
+//    Author: Sepefeets
+//   Version: 0.3 (27-Jun-2016)
+// Deck Name: Standard Midrange Shaman
+//      Hero: Shaman
+// Deck Type: Midrange (Control)
+
+
+// Starters
+// [Nudge] [0] The Coin (GAME_005) + [1] Tunnel Trogg (LOE_018) + [1] Tunnel Trogg (LOE_018)
+GAME_005,1;LOE_018,0;LOE_018,0;bonus:50;hero:shaman
+
+// [Combo] [1] Tunnel Trogg (LOE_018) > [0] The Coin (GAME_005) + [3] Feral Spirit (EX1_248)
+LOE_018,0;nxttrn;GAME_005,1;EX1_248,0;mana:1;bonusfirst:30;bonussecond:60;hero:shaman
+
+// [Nudge] [1] Tunnel Trogg (LOE_018) > [2] Totem Golem (AT_052)
+LOE_018,0;nxttrn;AT_052,0;mana:1;bonusfirst:30;bonussecond:55;hero:shaman
+
+// [Combo] [0] The Coin (GAME_005) + 2x [1] Argent squire (EX1_008) > 2 [2] Flametongue Totem (EX1_565)
+GAME_005,1;EX1_008,0;EX1_008,0;nxttrn;EX1_565,0;mana:1;bonusfirst:25;bonussecond:50;hero:shaman
+
+
+
+// [NUDGE] [5] Thunder Bluff Valiant (AT_049) + [2] Totemic Call (CS2_049)
+AT_049,25;CS2_049,0;bonus:25;hero:shaman
+
+//[NUDGE] [3] Tuskarr Totemic (AT_046) + [1] Primal Fustion (OG_023)
+AT_046,0;OG_023,0;bonus:10;hero:shaman
+
+
+
+// Cardvalue Lightning Bolt (EX1_238)
+cardvalue:EX1_238,10
+
+// Cardvalue Lava Burst (EX1_241)
+cardvalue:EX1_241,10

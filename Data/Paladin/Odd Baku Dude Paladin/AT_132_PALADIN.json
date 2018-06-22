@@ -1,0 +1,21 @@
+{
+	"GameCardId":"AT_132_PALADIN",
+	"ConfigComment":"Hero Power settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Natural boost to hero power",
+				"condition": "*",
+				"value":"20",
+			},
+			{
+				"comment":"If we have 6+ minions do not play",
+				"condition": "my_minions(count()) >= 6",
+				"value":"-50",
+			}
+		],
+	}
+}

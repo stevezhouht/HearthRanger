@@ -1,0 +1,29 @@
+//    Author: Dre
+//    Author: Dre
+//   Version: 0.1 (06-Jul-16)
+// Deck Name: Zoolock
+//      Hero: Warlock
+// Deck Type: Zoo (Control)
+
+// - W A R L O C K --------------------------------
+
+// [Combo] [0] The Coin (GAME_005) + 2x [1] Voidwalker (CS2_065) > 2 [2] Dire Wolf Alpha (EX1_162)
+GAME_005,1;CS2_065,0;CS2_065,0;nxttrn;EX1_162,0;mana:1;bonusfirst:30;bonussecond:50;hero:warlock
+
+// [Combo] [0] The Coin (GAME_005) + 2x [1] Argent squire (EX1_008) > 2 [2] Dire Wolf Alpha (EX1_162)
+GAME_005,1;EX1_008,0;EX1_008,0;nxttrn;EX1_162,0;mana:1;bonusfirst:30;bonussecond:50;hero:warlock
+
+// [Combo] [0] The Coin (GAME_005) + 2x [1] Possessed Villager (EX1_162) > 2 [2] Dire Wolf Alpha (EX1_162)
+GAME_005,1;EX1_162,0;EX1_162,0;nxttrn;EX1_162,0;mana:1;bonusfirst:30;bonussecond:50;hero:warlock
+
+//Knife Juggler (NEW1_019) + Forbidden Ritual (OG_114) 
+NEW1_019,0;OG_114,0;mana:5;bonus:25;hero:warlock 
+
+//Darkshire Councilman (OG_113) + Forbidden Ritual (OG_114) 
+OG_113,0;OG_114,0;mana:6;bonus:50;hero:warlock  
+
+// Cardvalue Doomguard
+cardvalue:EX1_310,38
+
+// Cardvalue Leeroy Jenkins 
+cardvalue:EX1_116,30 

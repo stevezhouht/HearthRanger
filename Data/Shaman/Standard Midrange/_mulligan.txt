@@ -1,0 +1,162 @@
+// This File: _mulligan.txt
+//    Author: Sepefeets
+//   Version: 0.3 (22-Jun-2016)
+// Deck Name: Standard Midrange Shaman
+//      Hero: Shaman
+// Deck Type: Midrange (Control)
+
+// - S H A M A N --------------------------------
+// [1] Lightning Bolt (EX1_238)
+// [1] Primal Fusion (OG_023)
+// [1] Rockbiter Weapon (CS2_045)
+// [1] Tunnel Trogg (LOE_018)
+// [2] Flametongue Totem (EX1_565)
+// [2] Totem Golem (AT_052)
+// [3] Feral Spirit (EX1_248)
+// [3] Hex (EX1_246)
+// [3] Lightning Storm (EX1_259)
+// [3] Mana Tide Totem (EX1_575)
+// [3] Tuskarr Totemic (AT_046)
+// [4] Flamewreathed Faceless x2 (OG_024)
+// [5] Bloodlust (CS2_046)
+// [5] Doomhammer (EX1_567)
+// [5] Thunder Bluff Valiant (AT_049)
+// [5] Thing from Below (OG_028)
+// [6] Fire Elemental (CS2_042)
+// - N E U T R A L ------------------------------
+// [1] Argent Squire (EX1_008)
+// [2] Flame Juggler (AT_094)
+
+
+
+// - A L L --------------------------------------
+// 1-DROP
+// 1 x Argent Squire
+hold;shaman;all;EX1_008:1
+// Tunnel Trogg
+hold;shaman;all;LOE_018
+
+// 2-DROP
+// 1 x Flame Juggler
+hold;shaman;all;AT_094:1
+// Totem Golem
+hold;shaman;all;AT_052
+
+// 3-DROP
+// 1 x Tuskarr Totemic
+hold;shaman;all;AT_046:1
+
+
+// - D R U I D ----------------------------------
+// 3-DROP
+// 1 x Hex
+hold;shaman;druid;EX1_246:1
+// 1 x Feral Spirit
+hold;shaman;druid;EX1_248:1
+
+
+// - H U N T E R --------------------------------
+// 1-DROP
+// 1 x Lightning Bolt
+hold;shaman;hunter;EX1_238:1
+// 1 x Rockbiter Weapon
+hold;shaman;hunter;CS2_045:1
+
+// 3-DROP
+// 1 x Feral Spirit
+hold;shaman;hunter;EX1_248:1
+
+// 4-DROP
+// 1 x Flamewreathed Faceless
+hold;shaman;hunter;OG_024:1
+
+
+// - M A G E ------------------------------------
+// 1-DROP
+// 1 x Lightning Bolt
+hold;shaman;mage;EX1_238:1
+// 1 x Rockbiter Weapon
+hold;shaman;mage;CS2_045:1
+
+// 3-DROP
+// 1 x Feral Spirit
+hold;shaman;mage;EX1_248:1
+
+// 4-DROP
+// 1 x Flamewreathed Faceless
+hold;shaman;mage;OG_024:1
+
+
+// - P A L A D I N ------------------------------
+// 3-DROP
+// 1 x Mana Tide Totem
+hold;shaman;pala;EX1_575:1
+
+
+// - P R I E S T --------------------------------
+// 1-DROP
+// 1 x Lightning Bolt
+hold;shaman;priest;EX1_238:1
+// 1 x Rockbiter Weapon
+hold;shaman;priest;CS2_045:1
+
+// 2-DROP
+// 1 x Flametongue Totem
+hold;shaman;priest;EX1_565:1
+
+// 3-DROP
+// 1 x Feral Spirit
+hold;shaman;priest;EX1_248:1
+
+
+// - R O G U E ----------------------------------
+// 1-DROP
+// 1 x Lightning Bolt
+hold;shaman;thief;EX1_238:1
+// 1 x Rockbiter Weapon
+hold;shaman;thief;CS2_045:1
+
+// 3-DROP
+// 1 x Feral Spirit
+hold;shaman;thief;EX1_248:1
+
+// 5-DROP
+// 1 x Doomhammer
+hold;shaman;thief;EX1_567:1
+
+
+// - S H A M A N --------------------------------
+// 1-DROP
+// 1 x Lightning Bolt
+hold;shaman;shaman;EX1_238:1
+// 1 x Rockbiter Weapon
+hold;shaman;shaman;CS2_045:1
+
+// 3-DROP
+// 1 x Feral Spirit
+hold;shaman;shaman;EX1_248:1
+// 1 x Lightning Storm
+hold;shaman;shaman;EX1_259:1
+
+
+// - W A R L O C K ------------------------------
+// 1-DROP
+// 1 x Lightning Bolt
+hold;shaman;warlock;EX1_238:1
+// 1 x Rockbiter Weapon
+hold;shaman;warlock;CS2_045:1
+
+// 3-DROP
+// 1 x Feral Spirit
+hold;shaman;warlock;EX1_248:1
+// 1 x Lightning Storm
+hold;shaman;warlock;EX1_259:1
+
+
+// - W A R R I O R ------------------------------
+// 3-DROP
+// 1 x Feral Spirit
+hold;shaman;warrior;EX1_248:1
+
+
+

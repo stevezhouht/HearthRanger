@@ -1,0 +1,39 @@
+{
+	"GameCardId":"CS2_203",	
+	"ConfigComment":"Ironbeak Owl config.",	
+
+	"BeforeBattlecryTargetBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"If we're not against a Warlock, and we have a Bittertide Hydra (UNG_087) on our board, silence Hydra",  		  
+				"condition": "my_target(count(), cardid = UNG_087, silenced = false) > 0 AND opp_hero(count(), hero_class = warlock) < 1 AND opp_minions(count(), cardid = UNG_087) < 1",
+				"value":"100",
+			},
+			{
+				"comment":"Make taunt minions more appealing to silence",
+				"condition": "my_target(count(), taunt = true) > 0",
+				"value":"15",
+			}
+		],
+	},
+	
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"If there's nothing to silence, don't use it.",
+				"condition":"opp_minions(count()) == 0",
+				"value":"-15",
+			},
+			
+			{
+				"comment":"If you're against Warlock, and there is no Voidlord (LOOT_368), Possessed Lackey (LOOT_306) or Carnivorous Cube (LOOT_161) on the board, hold onto this.",  		  
+				"condition": "opp_minions(count(), cardid = LOOT_368 | LOOT_306 | LOOT_161) < 1 AND opp_hero(count(), hero_class = warlock) > 0",
+				"value":"-15",
+			}
+		],
+	}
+}

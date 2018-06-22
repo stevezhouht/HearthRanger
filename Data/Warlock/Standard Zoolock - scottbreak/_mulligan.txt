@@ -1,0 +1,114 @@
+// This File: _mulligan.txt
+// Author: scottbreak
+// Version: 0.1 (22-Jun-16)
+// Deck Name: Standard Zoolock
+// Hero: Warlock
+// Deck Type: Control
+
+// - D E C K ------------------------------------
+// [0] Forbidden Ritual x1 (OG_114)
+// [1] Mortal Coil x1 (EX1_302)
+// [1] Power Overwhelming x2 (EX1_316)
+// [1] Soulfire x1 (EX1_308)
+// [1] Abusive Sergeant x2 (CS2_188)
+// [1] Argent Squire x2 (EX1_008)
+// [1] Flame Imp x2 (EX1_319)
+// [1] Possessed Villaged x2 (OG_241)
+// [1] Voidwalker x2 (CS2_065)
+// [2] Dark Peddler x2 (LOE_023)
+// [2] Dire Wolf Alpha x2 (EX1_162)
+// [2] Flame Juggler x1 (AT_094)
+// [2] Knife Juggler x2 (NEW1_019)
+// [3] Darkshire Councilman x2 (OG_113)
+// [3] Imp Gang Boss x2 (BRM_006)
+// [4] Defender of Argus x2 (EX1_093)
+// [5] Leeroy Jenkins x1 (EX1_116)
+// [10] Sea Giant x1 (EX1_586)
+
+
+// - A L L --------------------------------------
+// Flame Imp (EX1_319)
+hold;warlock;all;EX1_319
+// Voidwalker (CS2_065)
+hold;warlock;all;CS2_065
+// Possessed Villaged (OG_241)
+hold;warlock;all;OG_241
+// Argent Squire (EX1_008)
+hold;warlock;all;EX1_008
+// Dark Peddler (LOE_023)
+hold;warlock;all;LOE_023
+// Flame Juggler (AT_094)
+hold;warlock;all;AT_094
+// Imp Gang Boss x1 (BRM_006)
+hold;warlock;all;BRM_006:1
+// Imp Gang Boss x2 (BRM_006)
+hold;warlock;all;BRM_006:2;coin
+
+
+// - D R U I D ----------------------------------
+// Knife Juggler (NEW1_019)
+hold;warlock;druid;NEW1_019:1
+// Darkshire Councilman x1 (OG_113)
+hold;warlock;druid;OG_113:1
+// Darkshire Councilman x2 (OG_113)
+hold;warlock;druid;OG_113:2;coin
+
+
+// - H U N T E R --------------------------------
+// Abusive Sergeant (CS2_188)
+hold;warlock;hunter;CS2_188
+// Mortal Coil (EX1_302)
+hold;warlock;hunter;EX1_302
+
+
+// - M A G E ------------------------------------
+// Knife Juggler x1 (NEW1_019)
+hold;warlock;mage;NEW1_019:1
+// Darkshire Councilman x1 (OG_113)
+hold;warlock;mage;OG_113:1
+
+
+// - P A L A D I N ------------------------------
+// Knife Juggler x1 (NEW1_019)
+hold;warlock;pala;NEW1_019:1
+// Mortal Coil (EX1_302)
+hold;warlock;pala;EX1_302
+// Abusive Sergeant x 1 (CS2_188)
+hold;warlock;pala;CS2_188:1
+
+
+// - P R I E S T --------------------------------
+// Knife Juggler x1 (NEW1_019)
+hold;warlock;priest;NEW1_019:1
+// Darkshire Councilman x1 (OG_113)
+hold;warlock;priest;OG_113:1
+// Abusive Sergeant (CS2_188)
+hold;warlock;priest;CS2_188
+
+
+// - R O G U E ----------------------------------
+// Darkshire Councilman x1 (OG_113)
+hold;warlock;thief;OG_113:1
+
+
+// - S H A M A N --------------------------------
+// Mortal Coil (EX1_302)
+hold;warlock;shaman;EX1_302
+// Abusive Sergeant x1 (CS2_188)
+hold;warlock;shaman;CS2_188:1
+
+
+// - W A R L O C K ------------------------------
+// Mortal Coil (EX1_302)
+hold;warlock;warlock;EX1_302
+// Knife Juggler x1 (NEW1_019)
+hold;warlock;warlock;NEW1_019:1
+// Abusive Sergeant (CS2_188)
+hold;warlock;warlock;CS2_188
+
+
+// - W A R R I O R ------------------------------
+// Knife Juggler x1 (NEW1_019)
+hold;warlock;warrior;NEW1_019:1
+// Darkshire Councilman x1 (OG_113)
+hold;warlock;warrior;OG_113:1 

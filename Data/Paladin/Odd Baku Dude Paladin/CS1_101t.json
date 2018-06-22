@@ -1,0 +1,21 @@
+{
+	"GameCardId":"CS2_101t",	
+	"ConfigComment":"Silver Hand Recruit config.",	
+
+	"BeforePhysicalAttackBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"If we have other minions that are not tired, use them first",
+				"condition":"(my_minions(count()) - my_minions(count(), cardid = CS2_101t) - my_minions(count(), tired = true)) > 0",
+				"value":"-5",
+			},
+			{
+				"comment":"Don't attack if we have 5 mana and level up (LOOT_333)",
+				"condition":"my_hero(count(), mana >= 5) > 0 AND my_hand(count(), cardid = LOOT_333) > 0",
+				"value":"-35",
+			}
+		],
+	}
+}

@@ -1,0 +1,103 @@
+// This File: _mulligan.txt
+// Author: scottbreak
+// Version: 0.2 (20-Jun-2016)
+// Deck Name: Standard Midrange
+// Hero: Shaman
+// Deck Type: Midrange (Control)
+
+// - D E C K --------------------------------
+// [1] Lightning Bolt x1 (EX1_238)
+// [1] Primal Fustion x1 (OG_023)
+// [1] Rockbiter Weapon ×2 (CS2_045)
+// [1] Argent Squire ×1 (EX1_008)
+// [1] Tunnel Trogg ×2 (LOE_018)
+// [2] Flame Juggler ×2 (AT_094)
+// [2] Flametongue Totem ×2 (EX1_565)
+// [2] Totem Golem ×2 (AT_052)
+// [3] Feral Spirit x2 (EX1_248)
+// [3] Hex ×2 (EX1_246)
+// [3] Lightning Storm ×2 (EX1_259)
+// [3] Mana Tide Totem ×2 (EX1_575)
+// [3] Tuskarr Totemic ×2 (AT_046)
+// [4] Flamewreathed Faceless x2 (OG_024)
+// [5] Doomhammer ×1 (EX1_567)
+// [5] Thunder Bluff Valiant ×2 (AT_049)
+// [6] Thing from Below ×2 (OG_028)
+
+
+
+// - A L L --------------------------------------
+// 1-DROP
+// Argent Squire
+hold;shaman;all;EX1_008
+// Tunnel Trogg
+hold;shaman;all;LOE_018
+
+// 2-DROP
+// Flame Juggler
+hold;shaman;all;AT_094
+// Totem Golem
+hold;shaman;all;AT_052
+
+
+// - D R U I D ----------------------------------
+// 1 x Hex
+hold;shaman;druid;EX1_246:1
+// 1x Feral Spirit (EX1_248)
+hold;shaman;druid;EX1_248:1
+
+
+// - H U N T E R --------------------------------
+
+
+// - M A G E ------------------------------------
+// 1 x Tuskarr Totemic
+hold;shaman;mage;AT_046:1
+
+
+// - P A L A D I N ------------------------------
+// Tuskarr Totemic
+hold;shaman;paladin;AT_046
+// 1x Feral Spirit (EX1_248)
+hold;shaman;paladin;EX1_248:1
+
+
+// - P R I E S T --------------------------------
+// Tuskarr Totemic
+hold;shaman;priest;AT_046
+// Lightning Bolt
+hold;shaman;priest;EX1_238
+// Rockbiter Weapon
+hold;shaman;priest;CS2_045
+
+
+// - R O G U E ----------------------------------
+// 1 x Doomhammer ×1 (EX1_567)
+hold;shaman;thief;EX1_567:1
+
+
+// - S H A M A N --------------------------------
+// 1 x Hex (EX1_246)
+hold;shaman;shaman;EX1_246:1
+// 1 x Lightning Storm
+hold;shaman;shaman;EX1_259:1
+// Lightning Bolt
+hold;shaman;shaman;EX1_238
+// Rockbiter Weapon
+hold;shaman;shaman;CS2_045
+// Tuskarr Totemic
+hold;shaman;all;AT_046
+
+
+// - W A R L O C K ------------------------------
+// Lightning Bolt
+hold;shaman;warlock;EX1_238
+// Rockbiter Weapon
+hold;shaman;warlock;CS2_045
+
+
+// - W A R R I O R ------------------------------
+// 1x Feral Spirit (EX1_248)
+hold;shaman;warrior;EX1_248:1
+// Tuskarr Totemic
+hold;shaman;warrior;AT_046 

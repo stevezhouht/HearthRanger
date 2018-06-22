@@ -1,0 +1,28 @@
+// This File: Settings.txt
+//    Author: Dre
+//   Version: 0.5 (23-Jun-16)
+// Deck Name: Aggro-Shaman
+//      Hero: Shaman
+// Deck Type: Face 
+
+enfacehp = 29;
+maxwide = 7000;
+twotsamount = 1400;
+simEnemySecondTurn = true;
+playarround = true;
+playaroundprob = 50;
+playaroundprob2 = 80;
+enemyTurnMaxWide = 28;
+enemyTurnMaxWideSecondTime = 280;
+enemySecondTurnMaxWide = 28;
+nextTurnDeep = 6;
+nextTurnMaxWide = 28;
+nextTurnTotalBoards = 280;
+useSecretsPlayArround = true;
+alpha = 50;
+simulatePlacement = true;
+useExternalProcess = true;
+passiveWaiting = false;
+behave = face;
+concedeOnBadBoard = false;
+speed = false;

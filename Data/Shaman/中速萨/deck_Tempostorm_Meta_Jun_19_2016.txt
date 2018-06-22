@@ -1,0 +1,26 @@
+// This File: deck.txt
+//    Author: Sepefeets
+//   Version: 0.1 (22-Jun-2016)
+// Deck Name: Standard Midrange Totems
+//      Hero: Shaman
+// Deck Type: Midrange (Control)
+
+// Cards
+Primal Fusion	x1
+Rockbiter Weapon	x2
+Tunnel Trogg	x2
+Flametongue Totem	x2
+Totem Golem	x2
+Feral Spirit	x2
+Hex	x2
+Lightning Storm	x2
+Mana Tide Totem	x2
+Tuskarr Totemic	x2
+Flamewreathed Faceless  x1
+Bloodlust	x1
+Doomhammer	x1
+Thunder Bluff Valiant	x2
+Fire Elemental  x1
+Thing from Below	x2
+Argent Squire	x2
+Flame Juggler	x1

@@ -1,0 +1,30 @@
+// This File: _combo.txt
+// Author: Dre
+// Version: 0.1 (15-Jul-2016)
+// Deck Name: Midrange-Shaman
+// Hero: Shaman
+// Deck Type: Midrange (Control)
+
+// [Combo] [1] Tunnel Trogg (LOE_018) > [0] The Coin (GAME_005) + [3] Feral Spirit (EX1_248)
+LOE_018,0;nxttrn;GAME_005,1;EX1_248,0;mana:1;bonusfirst:30;bonussecond:60;hero:shaman
+
+// [Nudge] [1] Tunnel Trogg (LOE_018) > [2] Totem Golem (AT_052)
+LOE_018,0;nxttrn;AT_052,0;mana:1;bonusfirst:30;bonussecond:55;hero:shaman
+
+// [Nudge] [0] The Coin (GAME_005) + [1] Tunnel Trogg (LOE_018) + [1] Tunnel Trogg (LOE_018)
+GAME_005,0;LOE_018,0;LOE_018,0;bonus:50;hero:shaman
+
+// [NUDGE] [5] Thunder Bluff Valiant (AT_049) + [2] Totemic Call (CS2_049)
+AT_049,25;CS2_049,0;bonus:50;hero:shaman
+
+// [NUDGE] [8] Al'Akir the Windlord x1 (NEW1_010) + [1] Rockbiter Weapon (CS2_045)
+NEW1_010,1;CS2_045,0;bonus:50;hero:shaman
+
+// Cardvalue Lightning Bolt (EX1_238)	
+cardvalue:EX1_238,10
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+// This File: _discovery.txt
+//    Author: Dre
+//   Version: 0.2 (07-Jul-16)
+// Deck Name: Zoolock
+//      Hero: Warlock
+// Deck Type: Zoo (Control)
+
+//Power Overwhelming
+EX1_316,100;warlock;all
+
+//Soulfire
+EX1_308,80;warlock;all
+
+//Abusive Sergeant
+CS2_188,60;all;all
+
+// Possessed Villager
+OG_241,40;all;all
+
+// voidwalker
+CS2_065,30;all;all
+
+// Corruption
+CS2_063,20;all;all
+
+// Mortal coil
+EX1_302,10;all;all
+
+
+
+

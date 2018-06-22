@@ -1,0 +1,25 @@
+// This File: deck.txt
+//    Author: Sepefeets
+//   Version: 0.1 (17-May-2016)
+// Deck Name: Standard Midrange Hunter (Doomsayer)
+//      Hero: Hunter
+// Deck Type: Midrange (Control)
+
+// Cards
+Freezing Trap	x1
+King's Elekk	x2
+Quick Shot	x2
+Animal Companion	x2
+Carrion Grub	x2
+Deadly Shot	x1
+Kill Command	x2
+Unleash the Hounds	x1
+Houndmaster	x2
+Infested Wolf	x2
+Ram Wrangler	x1
+Tundra Rhino	x2
+Savannah Highmane	x2
+Call of the Wild	x2
+Doomsayer	x2
+Huge Toad	x2
+Stampeding Kodo	x2 

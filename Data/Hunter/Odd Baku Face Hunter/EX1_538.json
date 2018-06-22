@@ -1,0 +1,16 @@
+{
+	"GameCardId":"EX1_538",	
+	"ConfigComment":"Unleash the Hounds config.",	
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Give bonus if against 2+ minions",  		  
+				"condition": "opp_minions(count()) > 1",
+				"value":"40",
+			}
+		],
+	},
+}

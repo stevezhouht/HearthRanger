@@ -1,0 +1,26 @@
+// This File: deck.txt
+//    Author: scottbreak
+//   Version: 0.2 (20-Jun-2016)
+// Deck Name: Standard Midrange Totems
+//      Hero: Shaman
+// Deck Type: Midrange (Control)
+
+// Cards
+
+Lightning Bolt x1
+Primal Fustion x1
+Rockbiter Weapon ×2
+Argent Squire ×1
+Tunnel Trogg ×2
+Flame Juggler ×2
+Flametongue Totem ×2
+Totem Golem ×2
+Feral Spirit x2
+Hex ×2
+Lightning Storm ×2
+Mana Tide Totem ×2
+Tuskarr Totemic ×2
+Flamewreathed Faceless x2
+Doomhammer ×1
+Thunder Bluff Valiant ×2
+Thing from Below ×2

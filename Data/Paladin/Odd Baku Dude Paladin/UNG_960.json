@@ -1,0 +1,21 @@
+{
+	"GameCardId":"UNG_960",
+	"ConfigComment":"Lost in the Jungle settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Natural boost to Lost in the Jungle",
+				"condition": "*",
+				"value":"25",
+			},
+			{
+				"comment":"If we have 6+ minions do not play",
+				"condition": "my_minions(count()) >= 6",
+				"value":"-50",
+			}
+		],
+	}
+}

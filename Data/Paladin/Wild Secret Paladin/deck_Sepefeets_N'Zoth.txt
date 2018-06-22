@@ -1,0 +1,29 @@
+// This File: deck.txt
+//    Author: Sepefeets
+//   Version: 0.1 (17-May-2016)
+// Deck Name: Wild Secret Paladin (N'zoth)
+//      Hero: Paladin
+// Deck Type: Midrange (Control)
+
+// Cards
+Avenge  × 2
+Competitive Spirit  × 1
+Noble Sacrifice × 2
+Redemption × 1
+Repentance × 1
+Selfless Hero  × 2
+Shielded Minibot  × 2
+Muster for Battle  × 2
+Steward of Darkshire  × 1
+Keeper of Uldaman  × 2
+Truesilver Champion × 1
+Mysterious Challenger  × 2
+Tirion Fordring × 1
+Secretkeeper × 1
+Haunted Creeper  × 1
+Knife Juggler × 1
+Piloted Shredder  × 2
+Loatheb  × 1
+Sludge Belcher  × 2
+Dr. Boom  × 1
+N'Zoth, the Corruptor  × 1

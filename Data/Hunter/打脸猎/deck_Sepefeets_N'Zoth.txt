@@ -1,0 +1,25 @@
+// This File: deck.txt
+//    Author: Sepefeets
+//   Version: 0.1 (17-May-2016)
+// Deck Name: Standard Midrange Hunter (N'Zoth)
+//      Hero: Hunter
+// Deck Type: Midrange (Control)
+
+// Cards
+Hunter's Mark	x2
+Fiery Bat	x2
+Freezing Trap	x1
+Quick Shot	x2
+Flame Juggler	x2
+Huge Toad	x2
+King's Elekk	x1
+Eaglehorn Bow	x2
+Animal Companion	x2
+Kill Command	x2
+Unleash the Hounds	x2
+Houndmaster	x2
+Infested Wolf	x2
+Tundra Rhino	x1
+Savannah Highmane	x2
+Call of the Wild	x2
+N'Zoth, the Corruptor	x1

@@ -1,0 +1,16 @@
+{
+    "GameCardId":"LOOT_222",   
+    "ConfigComment":"Candleshot config. (Credits to tebessa)",  
+ 
+    "BeforePhysicalAttackBonus":
+    {
+        "values":
+        [
+            {
+                "comment":"High Priority for 1 Health Minion",           
+                "condition": "my_target(count(), divineshield = false, health = 1 ) > 0",
+                "value":"50",
+            }
+        ],
+    },
+}

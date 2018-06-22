@@ -1,0 +1,38 @@
+{
+	"GameCardId":"AT_132_HUNTER",	
+	"ConfigComment":"Ballista Shot (Hero Power) config.",	
+
+	"BeforeUseHeroPowerBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Face deck. Try to use the hero power very often",  		  
+				"condition": "*",
+				"value":"15",
+			},
+			{
+				"comment":"Turn 7 and afterwards we want to use face combo with Blackwald Pixie (GIL_561)",  		  
+				"condition": "my_hand(count(), cardid = GIL_561) > 0 AND my_hero(count(), mana >= 7) > 0",
+				"value":"100",
+			},
+			{
+				"comment":"If enemy has less than 3 health and no armor, use hero power for guaranteed lethal.",  		  
+				"condition": "(opp_hero(count(), health) + opp_hero(count(), armor)) < 4",
+				"value":"999",
+			}
+		],
+	},
+	
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Turn 7 and afterwards we want to use face combo with Blackwald Pixie (GIL_561)",  		  
+				"condition": "my_hand(count(), cardid = GIL_561) > 0 AND my_hero(count(), mana >= 7) > 0",
+				"value":"100",
+			}
+		],
+	}
+}

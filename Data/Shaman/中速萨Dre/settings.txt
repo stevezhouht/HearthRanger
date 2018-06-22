@@ -1,0 +1,28 @@
+// This File: settings.txt
+// Author: Dre
+// Version: 0.1 (15-Jul-2016)
+// Deck Name: Midrange-Shaman
+// Hero: Shaman
+// Deck Type: Midrange (Control)
+
+enfacehp = 29;
+maxwide = 6500;
+twotsamount = 1300;
+simEnemySecondTurn = true;
+playarround = true;
+playaroundprob = 50;
+playaroundprob2 = 80;
+enemyTurnMaxWide = 26;
+enemyTurnMaxWideSecondTime = 260;
+enemySecondTurnMaxWide = 26;
+nextTurnDeep = 6;
+nextTurnMaxWide = 26;
+nextTurnTotalBoards = 260;
+useSecretsPlayArround = true;
+alpha = 50;
+simulatePlacement = true;
+useExternalProcess = true;
+passiveWaiting = false;
+behave = control;
+concedeOnBadBoard = false;
+speed = false;

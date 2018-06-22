@@ -1,0 +1,16 @@
+{
+	"GameCardId":"LOOT_286t4",
+	"ConfigComment":"Maul Divine Shield settings.",
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"If we have nothing on the board it's worthless",
+				"condition": "my_minions(count()) < 1",
+				"value":"-15",
+			}
+		],
+	}
+}

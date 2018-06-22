@@ -1,0 +1,119 @@
+// This File: _mulligan.txt
+//    Author: Sepefeets
+//   Version: 0.1 (17-May-2016)
+// Deck Name: Standard Midrange Hunter
+//      Hero: Hunter
+// Deck Type: Midrange (Control)
+
+// - H U N T E R --------------------------------
+// [1] Hunter's Mark (CS2_084)
+// [1] Fiery Bat (OG_179)
+// [2] Explosive Trap (EX1_610)
+// [2] Freezing Trap (EX1_611)
+// [2] King's Elekk (AT_058)
+// [2] Snake Trap (EX1_554)
+// [2] Bear Trap (AT_060)
+// [2] Quick Shot (BRM_013)
+// [3] Animal Companion (NEW1_031)
+// [3] Carrion Grub (OG_325)
+// [3] Deadly Shot (EX1_617)
+// [3] Eaglehorn Bow (EX1_536)
+// [3] Kill Command (EX1_539)
+// [3] Unleash the Hounds (EX1_538)
+// [4] Houndmaster (DS1_070)
+// [4] Infested Wolf (OG_216)
+// [5] Ram Wrangler (AT_010)
+// [5] Tundra Rhino (DS1_178)
+// [6] Savannah Highmane (EX1_534)
+// [8] Call of the Wild (OG_211)
+// - N E U T R A L ------------------------------
+// [2] Doomsayer (NEW1_021)
+// [2] Huge Toad (LOE_046)
+// [2] Flame Juggler (AT_094)
+// [2] Knife Juggler (NEW1_019)
+// [5] Azure Drake (EX1_284)
+// [5] Stampeding Kodo (NEW1_041)
+// [10] N'Zoth, the Corruptor (OG_133)
+
+
+
+// - A L L --------------------------------------
+// 1-DROP
+// Fiery Bat
+hold;hunter;all;OG_179
+// 2-DROP
+// Doomsayer
+hold;hunter;all;NEW1_021
+// Huge Toad
+hold;hunter;all;LOE_046
+// King's Elekk
+hold;hunter;all;AT_058
+// 3-DROP
+// 1 x Eaglehorn Bow
+hold;hunter;all;EX1_536:1
+// 1 x Animal Companion
+hold;hunter;all;NEW1_031:1
+
+
+// - D R U I D ----------------------------------
+// 1-DROP
+// 1 x Hunter's Mark
+hold;hunter;druid;CS2_084:1
+
+// 2-DROP
+// 1 x Knife Juggler
+hold;hunter;druid;NEW1_019:1
+
+
+// - H U N T E R --------------------------------
+// 2-DROP
+// 1 x Explosive Trap
+hold;hunter;hunter;EX1_610:1
+// 1 x Quick Shot
+hold;hunter;hunter;BRM_013:1
+
+
+// - M A G E ------------------------------------
+// 2-DROP
+// Quick Shot
+hold;hunter;mage;BRM_013
+
+
+// - P A L A D I N ------------------------------
+// 2-DROP
+// 1 x Knife Juggler
+hold;hunter;pala;NEW1_019:1
+
+
+// - P R I E S T --------------------------------
+// 1-DROP
+// 1 x Hunter's Mark
+hold;hunter;priest;CS2_084:1
+
+
+// - R O G U E ----------------------------------
+// 2-DROP
+// 1 x Knife Juggler
+hold;hunter;thief;NEW1_019:1
+
+// - S H A M A N --------------------------------
+// 2-DROP
+// 1 x Explosive Trap
+hold;hunter;shaman;EX1_610:1
+// Quick Shot
+hold;hunter;shaman;BRM_013
+
+
+// - W A R L O C K ------------------------------
+// 2-DROP
+// 1 x Explosive Trap
+hold;hunter;warlock;EX1_610:1
+// 1 x Quick Shot
+hold;hunter;warlock;BRM_013:1
+
+
+// - W A R R I O R ------------------------------
+// 2-DROP
+// 1 x Knife Juggler
+hold;hunter;warrior;NEW1_019:1
+

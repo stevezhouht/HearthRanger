@@ -1,0 +1,42 @@
+### Odd Paladin
+# Class: Paladin
+# Format: Standard
+# Year of the Raven
+#
+# 2x (1) Acherus Veteran
+# 2x (1) Argent Squire
+# 2x (1) Blessing of Might
+# 2x (1) Dire Mole
+# 2x (1) Glacial Shard
+# 2x (1) Lost in the Jungle
+# 2x (1) Righteous Protector
+# 2x (3) Divine Favor
+# 1x (3) Ironbeak Owl
+# 2x (3) Tar Creeper
+# 2x (3) Unidentified Maul
+# 2x (5) Fungalmancer
+# 2x (5) Level Up!
+# 2x (7) Stormwind Champion
+# 2x (7) Vinecleaver
+# 1x (9) Baku the Mooneater
+# 
+AAECAZ8FAqICnvgCDkanBfEF9QWXwQLKwwKDxwK4xwLjywKVzgLR4QKL5QLW5QK15gIA
+# 
+# To use this deck, copy it to your clipboard and create a new deck in Hearthstone
+
+Acherus Veteran	x2		ICC_092
+Argent Squire	x2		EX1_008
+Blessing of Might	x2	CS2_087
+Dire Mole	x2			LOOT_258
+Glacial Shard	x2		UNG_205
+Lost in the Jungle	x2	UNG_960
+Righteous Protector	x2	ICC_038
+Divine Favor	x2		EX1_349
+Ironbeak Owl	x1		CS2_203
+Tar Creeper	x2			UNG_928
+Unidentified Maul	x2	LOOT_286
+Fungalmancer	x2		LOOT_167
+Level Up!	x2			LOOT_333
+Stormwind Champion	x2	CS2_222
+Vinecleaver	x2			UNG_950
+Baku the Mooneater	x1	GIL_826

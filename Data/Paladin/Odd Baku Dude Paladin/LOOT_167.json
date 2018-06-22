@@ -1,0 +1,38 @@
+{
+    "GameCardId":"LOOT_167",
+    "ConfigComment":"Fungalmancer settings. (Credit to tebessa)",
+ 
+    "BeforePlayCardBonus":
+    {
+        "values":
+        [
+            {
+                "comment":"If we have two minions that can attack use this",
+                "condition": "my_minions(count(), tired = false) > 1",
+                "value":"40",
+            },
+            {
+                "comment":"If we have no minions don't use this",
+                "condition": "my_minions(count()) < 1",
+                "value":"-100",
+            },
+            {
+                "comment":"Face attack hero buff. Use this greatly",
+                "condition": "my_minions(count(), tired = false) > 1 AND my_target(count(), hero = true) > 0 AND opp_minions(count(), taunt) < 1",
+                "value":"50",
+            },
+        ],
+    },
+ 
+    "InHandBonus":
+    {
+        "values":
+        [
+            {
+                "comment":"Keep if we have no minions",          
+                "condition": "my_minions(count()) < 1",
+                "value":"50",
+            }
+        ],
+    },  
+}

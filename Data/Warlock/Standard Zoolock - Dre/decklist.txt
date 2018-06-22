@@ -1,0 +1,41 @@
+// This File: decklist.txt
+//    Author: Dre
+//   Version: 0.2 (3-sept-16)
+// Deck Name: Zoolock
+//      Hero: Warlock
+// Deck Type: Zoo (Control)
+
+Forbidden Ritual x 2		
+Power Overwhelming x 2		
+Soulfire x 1		
+Abusive Sergeant x 2		
+Flame Imp x 2		
+Possessed Villager x 2		
+Voidwalker x 2		
+Dark Peddler x 2		
+Dire Wolf Alpha x 2		
+Knife Juggler x 2		
+Darkshire Councilman x 2		
+Imp Gang Boss x 2		
+Dark Iron Dwarf x 1
+Gorkmok the Impaler 1x		
+Defender of Argus x 2		
+Leeroy Jenkins x 1
+Sea Giant x 2	
+
+Variations:
+- 1x Gormok the Impaler
++ 1x Dark Iron Dwarf
+
+- 1x Leeroy Jenkins
+- 1x Soulfire
++ 2x Doomguard
+
+Versus aggro:
+- 1x Gorkmok the Impaler
+- 1x Soulfire 	
++ 2x Flame juggler
+
+
+
+	

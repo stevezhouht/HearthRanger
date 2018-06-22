@@ -1,0 +1,16 @@
+{
+	"GameCardId":"CS2_146",	
+	"ConfigComment":"Southsea Deckhand config.",	
+
+	"BeforePlayCardBonus":
+	{
+		"values":
+		[
+			{
+				"comment":"Only play if we have Eaglehorn Bow (EX1_536) equipped.",  		  
+				"condition": "my_heroweapon(count()) > 0",
+				"value":"25",
+			}
+		],
+	},
+}

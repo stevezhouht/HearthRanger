@@ -1,0 +1,432 @@
+// This File: _mulligan.txt
+//    Author: Dre
+//   Version: 0.3 (3-sept-16)
+// Deck Name: Zoolock
+//      Hero: Warlock
+// Deck Type: Zoo (Control)
+
+// - W A R L O C K ------------------------------
+// [0] Forbidden Ritual (OG_114)
+// [1] Flame Imp (EX1_319)
+// [1] Possessed Villager (OG_241)
+// [1] Power Overwhelming (EX1_316)
+// [1] Soulfire (EX1_308)
+// [1] Voidwalker (CS2_065)
+// [3] Darkshire Councilman (OG_113)
+// [3] Imp Gang Boss (BRM_006)
+// [5] Doomguard (AT_020)
+// - N E U T R A L ------------------------------
+// [1] Argent Squire (EX1_008)
+// [1] Abusive Sergeant (CS2_188)
+// [2] Crazed Alchemist (EX1_059)
+// [2] Dark Peddler (LOE_023)
+// [2] Flame Juggler (AT_094)			
+// [2] Dire Wolf Alpha (EX1_162)
+// [2] Knife Juggler (NEW1_019)
+// [4] Dark Iron Dwarf (EX1_046)
+// [4] Gormok the Impaler (AT_122)
+// [4] Defender of Argus (EX1_093)
+//[10] Sea Giant (EX1_586)
+
+
+// - D R U I D ----------------------------------
+// 1-DROP
+// Possessed Villager
+hold;warlock;druid;OG_241
+// Flame Imp
+hold;warlock;druid;EX1_319
+// Voidwalker
+hold;warlock;druid;CS2_065
+// 1 x Abusive Sergeant + 1 drop
+hold;warlock;druid;CS2_188:1:EX1_319/OG_241/EX1_008
+
+// 2-DROP
+// Dark Peddler 
+hold;warlock;druid;LOE_023
+// 1x Flame Juggler
+hold;warlock;druid;AT_094:1
+// 1x Dire Wolf Alpha + 2x Voidwalker
+hold;warlock;druid;EX1_162:1:CS2_065,2,2 
+// 1x Dire Wolf Alpha + 2x Possessed Villager
+hold;warlock;druid;EX1_162:1:OG_241,2,2 
+// 1x Dire Wolf Alpha + 2x Argent Squire
+hold;warlock;druid;EX1_162:1:EX1_008,2,2 
+						
+// 3-DROP
+// 1 x Imp Gang Boss
+hold;warlock;druid;BRM_006:1
+// 1 x Darkshire Councilman + 1-drop + 2-drop
+hold;warlock;druid;OG_113:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;druid;OG_113:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Darkshire Councilman + 1-drop + coin
+hold;warlock;druid;OG_113:1:EX1_319/OG_241/CS2_065;coin
+
+// 4-DROP
+// 1x Dark Iron Dwarf + 1-drop + 2-drop + 3-drop
+hold;warlock;druid;EX1_046:1:OG_241+LOE_023+BRM_006/OG_241+LOE_023+OG_113/OG_241+NEW1_019+BRM_006/OG_241+NEW1_019+OG_113
+hold;warlock;druid;EX1_046:1:EX1_319+LOE_023+BRM_006/EX1_319+LOE_023+OG_113/EX1_319+NEW1_019+BRM_006/EX1_319+NEW1_019+OG_113
+hold;warlock;druid;EX1_046:1:CS2_065+LOE_023+BRM_006/CS2_065+LOE_023+OG_113/CS2_065+NEW1_019+BRM_006/CS2_065+NEW1_019+OG_113
+// 1x Dark Iron Dwarf + 2-drop + 2-drop + 3-drop + coin
+hold;warlock;druid;EX1_046:1:NEW1_019+LOE_023+BRM_006/NEW1_019+LOE_023+OG_113;coin
+
+
+// - H U N T E R --------------------------------
+// 1-DROP
+// Possessed Villager
+hold;warlock;hunter;OG_241
+// Voidwalker
+hold;warlock;hunter;CS2_065
+// Argent Squire 
+hold;warlock;hunter;EX1_008
+// 1 x Abusive Sergeant + 1 drop
+hold;warlock;hunter;CS2_188:1:EX1_319/OG_241/EX1_008
+
+// 2-DROP
+// Dark Peddler 
+hold;warlock;hunter;LOE_023
+// 1x Flame Juggler
+hold;warlock;hunter;AT_094:1
+// 1x Dire Wolf Alpha + 2x Voidwalker
+hold;warlock;hunter;EX1_162:1:CS2_065,2,2 
+// 1x Dire Wolf Alpha + 2x Possessed Villager
+hold;warlock;hunter;EX1_162:1:OG_241,2,2 
+// 1x Dire Wolf Alpha + 2x Argent Squire
+hold;warlock;hunter;EX1_162:1:EX1_008,2,2 
+
+// 3-DROP
+// 1 x Imp Gang Boss + curve
+hold;warlock;hunter;BRM_006:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;hunter;BRM_006:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Imp Gang Boss + 1-drop + coin
+hold;warlock;hunter;BRM_006:1:EX1_319/OG_241/CS2_065;coin
+// 1 x Darkshire Councilman + 1-drop + 2-drop
+hold;warlock;hunter;OG_113:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;hunter;OG_113:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Darkshire Councilman + 1-drop + coin
+hold;warlock;hunter;OG_113:1:EX1_319/OG_241/CS2_065;coin
+
+// 4-DROP
+// 1x Dark Iron Dwarf + 1-drop + 2-drop + 3-drop
+hold;warlock;hunter;EX1_046:1:OG_241+LOE_023+BRM_006/OG_241+LOE_023+OG_113/OG_241+NEW1_019+BRM_006/OG_241+NEW1_019+OG_113
+hold;warlock;hunter;EX1_046:1:EX1_319+LOE_023+BRM_006/EX1_319+LOE_023+OG_113/EX1_319+NEW1_019+BRM_006/EX1_319+NEW1_019+OG_113
+hold;warlock;hunter;EX1_046:1:CS2_065+LOE_023+BRM_006/CS2_065+LOE_023+OG_113/CS2_065+NEW1_019+BRM_006/CS2_065+NEW1_019+OG_113
+// 1x Dark Iron Dwarf + 2-drop + 2-drop + 3-drop + coin
+hold;warlock;hunter;EX1_046:1:NEW1_019+LOE_023+BRM_006/NEW1_019+LOE_023+OG_113;coin
+
+
+// - M A G E ------------------------------------
+// 1-DROP
+// Flame Imp
+hold;warlock;mage;EX1_319
+// Voidwalker
+hold;warlock;mage;CS2_065
+// Argent Squire
+hold;warlock;mage;EX1_008
+// 1 x Abusive Sergeant + 1 drop
+hold;warlock;mage;CS2_188:1:EX1_319/OG_241/EX1_008
+
+// 2-DROP
+// Dark Peddler 
+hold;warlock;mage;LOE_023
+// 1x Flame Juggler
+hold;warlock;mage;AT_094:1
+// 1 x Knife Juggler
+hold;warlock;mage;NEW1_019:1
+// 1x Dire Wolf Alpha + 2x Voidwalker
+hold;warlock;mage;EX1_162:1:CS2_065,2,2 
+// 1x Dire Wolf Alpha + 2x Possessed Villager
+hold;warlock;mage;EX1_162:1:OG_241,2,2 
+// 1x Dire Wolf Alpha + 2x Argent Squire
+hold;warlock;mage;EX1_162:1:EX1_008,2,2 
+
+// 3-DROP
+// 1 x Imp Gang Boss + curve
+hold;warlock;mage;BRM_006:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;mage;BRM_006:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Imp Gang Boss + 1-drop + coin
+hold;warlock;priest;BRM_006:1:EX1_319/OG_241/CS2_065;coin
+// 1 x Darkshire Councilman + 1-drop + 2-drop
+hold;warlock;mage;OG_113:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;mage;OG_113:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Darkshire Councilman + 1-drop + coin
+hold;warlock;mage;OG_113:1:EX1_319/OG_241/CS2_065;coin
+
+// 4-DROP
+// 1x Dark Iron Dwarf + 1-drop + 2-drop + 3-drop
+hold;warlock;mage;EX1_046:1:OG_241+LOE_023+BRM_006/OG_241+LOE_023+OG_113/OG_241+NEW1_019+BRM_006/OG_241+NEW1_019+OG_113
+hold;warlock;mage;EX1_046:1:EX1_319+LOE_023+BRM_006/EX1_319+LOE_023+OG_113/EX1_319+NEW1_019+BRM_006/EX1_319+NEW1_019+OG_113
+hold;warlock;mage;EX1_046:1:CS2_065+LOE_023+BRM_006/CS2_065+LOE_023+OG_113/CS2_065+NEW1_019+BRM_006/CS2_065+NEW1_019+OG_113
+// 1x Dark Iron Dwarf + 2-drop + 2-drop + 3-drop + coin
+hold;warlock;mage;EX1_046:1:NEW1_019+LOE_023+BRM_006/NEW1_019+LOE_023+OG_113;coin
+
+
+// - P A L A D I N ------------------------------
+// 1-DROP
+// Possessed Villager
+hold;warlock;pala;OG_241
+// Flame Imp
+hold;warlock;pala;EX1_319
+// Voidwalker
+hold;warlock;pala;CS2_065
+// 1 x Abusive Sergeant + 1 drop
+hold;warlock;pala;CS2_188:1:EX1_319/OG_241/EX1_008
+
+// 2-DROP
+// Dark Peddler
+hold;warlock;pala;LOE_023
+// 1x Flame Juggler
+hold;warlock;pala;AT_094:1
+// 1x Dire Wolf Alpha + 2x Voidwalker
+hold;warlock;pala;EX1_162:1:CS2_065,2,2 
+// 1x Dire Wolf Alpha + 2x Possessed Villager
+hold;warlock;pala;EX1_162:1:OG_241,2,2 
+// 1x Dire Wolf Alpha + 2x Argent Squire
+hold;warlock;pala;EX1_162:1:EX1_008,2,2 
+
+// 3-DROP
+// 1 x Imp Gang Boss + curve
+hold;warlock;pala;BRM_006:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;pala;BRM_006:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Imp Gang Boss + 1-drop + coin
+hold;warlock;pala;BRM_006:1:EX1_319/OG_241/CS2_065;coin
+// 1 x Darkshire Councilman + 1-drop + 2-drop
+hold;warlock;pala;OG_113:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;pala;OG_113:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Darkshire Councilman + 1-drop + coin
+hold;warlock;pala;OG_113:1:EX1_319/OG_241/CS2_065;coin
+
+// 4-DROP
+// 1x Dark Iron Dwarf + 1-drop + 2-drop + 3-drop
+hold;warlock;pala;EX1_046:1:OG_241+LOE_023+BRM_006/OG_241+LOE_023+OG_113/OG_241+NEW1_019+BRM_006/OG_241+NEW1_019+OG_113
+hold;warlock;pala;EX1_046:1:EX1_319+LOE_023+BRM_006/EX1_319+LOE_023+OG_113/EX1_319+NEW1_019+BRM_006/EX1_319+NEW1_019+OG_113
+hold;warlock;pala;EX1_046:1:CS2_065+LOE_023+BRM_006/CS2_065+LOE_023+OG_113/CS2_065+NEW1_019+BRM_006/CS2_065+NEW1_019+OG_113
+// 1x Dark Iron Dwarf + 2-drop + 2-drop + 3-drop + coin
+hold;warlock;pala;EX1_046:1:NEW1_019+LOE_023+BRM_006/NEW1_019+LOE_023+OG_113;coin
+
+
+// - P R I E S T --------------------------------
+// 1-DROP
+// Possessed Villager
+hold;warlock;priest;OG_241
+// Flame Imp
+hold;warlock;priest;EX1_319
+// Voidwalker
+hold;warlock;priest;CS2_065
+// Argent Squire 
+hold;warlock;priest;EX1_008
+// 1 x Abusive Sergeant + 1 drop
+hold;warlock;priest;CS2_188:1:EX1_319/OG_241/EX1_008
+
+// 2-DROP
+// 1x Dark Peddler 
+hold;warlock;priest;LOE_023:1
+// 1x Flame Juggler
+hold;warlock;priest;AT_094:1
+// 1x Crazed Alchemist
+hold;warlock;priest;EX1_059:1
+// 1x Dire Wolf Alpha + 2x Voidwalker
+hold;warlock;priest;EX1_162:1:CS2_065,2,2 
+// 1x Dire Wolf Alpha + 2x Possessed Villager
+hold;warlock;priest;EX1_162:1:OG_241,2,2 
+// 1x Dire Wolf Alpha + 2x Argent Squire
+hold;warlock;priest;EX1_162:1:EX1_008,2,2 
+
+// 3-DROP
+// 1 x Imp Gang Boss + curve
+hold;warlock;priest;BRM_006:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;priest;BRM_006:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Imp Gang Boss + 1-drop + coin
+hold;warlock;priest;BRM_006:1:EX1_319/OG_241/CS2_065;coin
+// 1 x Darkshire Councilman + 1-drop + 2-drop
+hold;warlock;priest;OG_113:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;priest;OG_113:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Darkshire Councilman + 1-drop + coin
+hold;warlock;priest;OG_113:1:EX1_319/OG_241/CS2_065;coin
+
+// 4-DROP
+// 1x Dark Iron Dwarf + 1-drop + 2-drop + 3-drop
+hold;warlock;priest;EX1_046:1:OG_241+LOE_023+BRM_006/OG_241+LOE_023+OG_113/OG_241+NEW1_019+BRM_006/OG_241+NEW1_019+OG_113
+hold;warlock;priest;EX1_046:1:EX1_319+LOE_023+BRM_006/EX1_319+LOE_023+OG_113/EX1_319+NEW1_019+BRM_006/EX1_319+NEW1_019+OG_113
+hold;warlock;priest;EX1_046:1:CS2_065+LOE_023+BRM_006/CS2_065+LOE_023+OG_113/CS2_065+NEW1_019+BRM_006/CS2_065+NEW1_019+OG_113
+// 1x Dark Iron Dwarf + 2-drop + 2-drop + 3-drop + coin
+hold;warlock;priest;EX1_046:1:NEW1_019+LOE_023+BRM_006/NEW1_019+LOE_023+OG_113;coin
+
+
+// - R O G U E ----------------------------------
+// 1-DROP
+// Possessed Villager
+hold;warlock;thief;OG_241
+// Voidwalker
+hold;warlock;thief;CS2_065
+// Flame Imp
+hold;warlock;thief;EX1_319
+// 1 x Abusive Sergeant + 1 drop
+hold;warlock;thief;CS2_188:1:EX1_319/OG_241/EX1_008
+
+// 2-DROP
+// Dark Peddler 
+hold;warlock;thief;LOE_023
+// 1x Flame Juggler
+hold;warlock;thief;AT_094:1
+// 1x Dire Wolf Alpha + 2x Voidwalker
+hold;warlock;thief;EX1_162:1:CS2_065,2,2 
+// 1x Dire Wolf Alpha + 2x Possessed Villager
+hold;warlock;thief;EX1_162:1:OG_241,2,2 
+// 1x Dire Wolf Alpha + 2x Argent Squire
+hold;warlock;thief;EX1_162:1:EX1_008,2,2 
+
+// 3-DROP
+// 1 x Imp Gang Boss + curve
+hold;warlock;thief;BRM_006:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;thief;BRM_006:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Imp Gang Boss + 1-drop + coin
+hold;warlock;thief;BRM_006:1:EX1_319/OG_241/CS2_065;coin
+// 1 x Darkshire Councilman + 1-drop + 2-drop
+hold;warlock;thief;OG_113:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;thief;OG_113:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Darkshire Councilman + 1-drop + coin
+hold;warlock;thief;OG_113:1:EX1_319/OG_241/CS2_065;coin
+
+// 4-DROP
+// 1x Dark Iron Dwarf + 1-drop + 2-drop + 3-drop
+hold;warlock;thief;EX1_046:1:OG_241+LOE_023+BRM_006/OG_241+LOE_023+OG_113/OG_241+NEW1_019+BRM_006/OG_241+NEW1_019+OG_113
+hold;warlock;thief;EX1_046:1:EX1_319+LOE_023+BRM_006/EX1_319+LOE_023+OG_113/EX1_319+NEW1_019+BRM_006/EX1_319+NEW1_019+OG_113
+hold;warlock;thief;EX1_046:1:CS2_065+LOE_023+BRM_006/CS2_065+LOE_023+OG_113/CS2_065+NEW1_019+BRM_006/CS2_065+NEW1_019+OG_113
+// 1x Dark Iron Dwarf + 2-drop + 2-drop + 3-drop + coin
+hold;warlock;thief;EX1_046:1:NEW1_019+LOE_023+BRM_006/NEW1_019+LOE_023+OG_113;coin
+
+
+// - S H A M A N --------------------------------
+// 1-DROP
+// Possessed Villager
+hold;warlock;shaman;OG_241
+// Voidwalker
+hold;warlock;shaman;CS2_065
+// 1 x Abusive Sergeant
+hold;warlock;shaman;CS2_188:1
+// Argent Squire 
+hold;warlock;shaman;EX1_008
+
+// 2-DROP
+// Dark Peddler 
+hold;warlock;shaman;LOE_023
+// 1x Flame Juggler
+hold;warlock;shaman;AT_094:1
+// 1x Crazed Alchemist
+hold;warlock;shaman;EX1_059:1
+// 1x Dire Wolf Alpha + 2x Voidwalker
+hold;warlock;shaman;EX1_162:1:CS2_065,2,2 
+// 1x Dire Wolf Alpha + 2x Possessed Villager
+hold;warlock;shaman;EX1_162:1:OG_241,2,2 
+// 1x Dire Wolf Alpha + 2x Argent Squire
+hold;warlock;shaman;EX1_162:1:EX1_008,2,2 
+
+// 3-DROP
+// 1 x Imp Gang Boss + curve
+hold;warlock;shaman;BRM_006:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;shaman;BRM_006:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Imp Gang Boss + 1-drop + coin
+hold;warlock;shaman;BRM_006:1:EX1_319/OG_241/CS2_065;coin
+// 1 x Darkshire Councilman + 1-drop + 2-drop
+hold;warlock;shaman;OG_113:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;shaman;OG_113:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Darkshire Councilman + 1-drop + coin
+hold;warlock;shaman;OG_113:1:EX1_319/OG_241/CS2_065;coin
+
+// 4-DROP
+// 1x Dark Iron Dwarf + 1-drop + 2-drop + 3-drop
+hold;warlock;shaman;EX1_046:1:OG_241+LOE_023+BRM_006/OG_241+LOE_023+OG_113/OG_241+NEW1_019+BRM_006/OG_241+NEW1_019+OG_113
+hold;warlock;shaman;EX1_046:1:EX1_319+LOE_023+BRM_006/EX1_319+LOE_023+OG_113/EX1_319+NEW1_019+BRM_006/EX1_319+NEW1_019+OG_113
+hold;warlock;shaman;EX1_046:1:CS2_065+LOE_023+BRM_006/CS2_065+LOE_023+OG_113/CS2_065+NEW1_019+BRM_006/CS2_065+NEW1_019+OG_113
+// 1x Dark Iron Dwarf + 2-drop + 2-drop + 3-drop + coin
+hold;warlock;shaman;EX1_046:1:NEW1_019+LOE_023+BRM_006/NEW1_019+LOE_023+OG_113;coin
+
+
+// - W A R L O C K ------------------------------
+// 1-DROP
+// Possessed Villager
+hold;warlock;warlock;OG_241
+// Flame Imp
+hold;warlock;warlock;EX1_319
+// Voidwalker
+hold;warlock;warlock;CS2_065
+// 1 x Abusive Sergeant
+hold;warlock;warlock;CS2_188:1
+// Argent Squire 
+hold;warlock;warlock;EX1_008
+
+// 2-DROP
+// Dark Peddler 
+hold;warlock;warlock;LOE_023
+// 1x Flame Juggler
+hold;warlock;warlock;AT_094:1
+// 1x Dire Wolf Alpha + 2x Voidwalker
+hold;warlock;warlock;EX1_162:1:CS2_065,2,2 
+// 1x Dire Wolf Alpha + 2x Possessed Villager
+hold;warlock;warlock;EX1_162:1:OG_241,2,2 
+// 1x Dire Wolf Alpha + 2x Argent Squire
+hold;warlock;warlock;EX1_162:1:EX1_008,2,2 
+
+// 3-DROP
+// 1 x Imp Gang Boss + curve
+hold;warlock;warlock;BRM_006:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;warlock;BRM_006:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Imp Gang Boss + 1-drop + coin
+hold;warlock;warlock;BRM_006:1:EX1_319/OG_241/CS2_065;coin
+// 1 x Darkshire Councilman + 1-drop + 2-drop
+hold;warlock;warlock;OG_113:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;warlock;OG_113:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Darkshire Councilman + 1-drop + coin
+hold;warlock;warlock;OG_113:1:EX1_319/OG_241/CS2_065;coin
+
+// 4-DROP
+// 1x Dark Iron Dwarf + 1-drop + 2-drop + 3-drop
+hold;warlock;warlock;EX1_046:1:OG_241+LOE_023+BRM_006/OG_241+LOE_023+OG_113/OG_241+NEW1_019+BRM_006/OG_241+NEW1_019+OG_113
+hold;warlock;warlock;EX1_046:1:EX1_319+LOE_023+BRM_006/EX1_319+LOE_023+OG_113/EX1_319+NEW1_019+BRM_006/EX1_319+NEW1_019+OG_113
+hold;warlock;warlock;EX1_046:1:CS2_065+LOE_023+BRM_006/CS2_065+LOE_023+OG_113/CS2_065+NEW1_019+BRM_006/CS2_065+NEW1_019+OG_113
+// 1x Dark Iron Dwarf + 2-drop + 2-drop + 3-drop + coin
+hold;warlock;warlock;EX1_046:1:NEW1_019+LOE_023+BRM_006/NEW1_019+LOE_023+OG_113;coin
+
+
+// - W A R R I O R ------------------------------
+// 1-DROP
+// Possessed Villager
+hold;warlock;warrior;OG_241
+// Flame Imp
+hold;warlock;warrior;EX1_319
+// Voidwalker
+hold;warlock;warrior;CS2_065
+// 1 x Abusive Sergeant + 1 drop + no Coin
+hold;warlock;warrior;CS2_188:1:EX1_319/OG_241/EX1_008;nocoin
+
+// 2-DROP
+// Dark Peddler 
+hold;warlock;warrior;LOE_023
+// 1x Flame Juggler
+hold;warlock;warrior;AT_094:1
+// 1x Dire Wolf Alpha + 2x Voidwalker
+hold;warlock;warrior;EX1_162:1:CS2_065,2,2 
+// 1x Dire Wolf Alpha + 2x Possessed Villager
+hold;warlock;warrior;EX1_162:1:OG_241,2,2 
+// 1x Dire Wolf Alpha + 2x Argent Squire
+hold;warlock;warrior;EX1_162:1:EX1_008,2,2 
+
+// 3-DROP
+// 1 x Imp Gang Boss
+hold;warlock;warrior;BRM_006:1
+// 1 x Darkshire Councilman + 1-drop + 2-drop
+hold;warlock;warrior;OG_113:1:EX1_319+LOE_023/EX1_319+NEW1_019/OG_241+LOE_023
+hold;warlock;warrior;OG_113:1:OG_241+NEW1_019/CS2_065+LOE_023/CS2_065+NEW1_019
+// 1 x Darkshire Councilman + 1-drop + coin
+hold;warlock;warrior;OG_113:1:EX1_319/OG_241/CS2_065;coin
+
+// 4-DROP
+// 1x Dark Iron Dwarf + 1-drop + 2-drop + 3-drop
+hold;warlock;warrior;EX1_046:1:OG_241+LOE_023+BRM_006/OG_241+LOE_023+OG_113/OG_241+NEW1_019+BRM_006/OG_241+NEW1_019+OG_113
+hold;warlock;warrior;EX1_046:1:EX1_319+LOE_023+BRM_006/EX1_319+LOE_023+OG_113/EX1_319+NEW1_019+BRM_006/EX1_319+NEW1_019+OG_113
+hold;warlock;warrior;EX1_046:1:CS2_065+LOE_023+BRM_006/CS2_065+LOE_023+OG_113/CS2_065+NEW1_019+BRM_006/CS2_065+NEW1_019+OG_113
+// 1x Dark Iron Dwarf + 2-drop + 2-drop + 3-drop + coin
+hold;warlock;warrior;EX1_046:1:NEW1_019+LOE_023+BRM_006/NEW1_019+LOE_023+OG_113;coin
+
+
+

@@ -1,0 +1,181 @@
+// This File: _mulligan.txt
+//    Author: Dre
+//   Version: 0.5 (23-Jun-16)
+// Deck Name: Aggro-Shaman
+//      Hero: Shaman
+// Deck Type: Face 
+
+// - S H A M A N --------------------------------
+// [1] Lightning Bolt (EX1_238)			2x	
+// [1] Rockbiter Weapon (CS2_045)		2x	
+// [1] Tunnel Trogg (LOE_018)			2x
+// [2] Totem Golem (AT_052)			2x
+// [2] Flametongue Totem (EX1_565)		2x
+// [3] Feral Spirit (EX1_248)			2x
+// [3] Lava Burst (EX1_241)			2x
+// [3] Tuskarr Totemic (AT_046)			2x
+// [4] Flamewreathed Faceless (OG_024)		2x
+// [5] Doomhammer (EX1_567)			2x
+// [6] Thing from Below (OG_028)		2X
+
+// - N E U T R A L ------------------------------
+// [1] Argent Squire (EX1_008)			2x
+// [1] Sir Finley Mrrgglton (LOE_076)		1x
+// [1] Abusive Sergeant (CS2_188)		2x
+// [2] Flame Juggler (AT_094)			1x
+// [3] Argent Horserider (AT_087)		2x
+
+
+// - A L L ----------------------------------
+// 1-DROP
+// 1X Sir Finley Mrrgglton
+hold;shaman;all;LOE_076
+// 2X Tunnel Trog
+hold;shaman;all;LOE_018
+
+// 2-DROP
+// 1x Totem Golem
+hold;shaman;all;AT_052:1
+// 2x Totem Golem + 1-Drop + coin
+hold;shaman;all;AT_052:2:LOE_018/EX1_008;coin
+// 1x Flametongue Totem + 2x Argent Squire + coin
+hold;shaman;all;EX1_008:2:EX1_565;coin
+
+// 3-DROP
+// 1x Feral Spirit + Tunnel Trog
+hold;shaman;all;EX1_248:1:LOE_018
+// 1x Feral Spirit + 1-drop + coin
+hold;shaman;all;EX1_248:1:EX1_008/LOE_076;coin
+// 1x Argent Horserider + Flametongue Totem + Argent Squire + no coin
+hold;shaman;all;AT_087:1:EX1_565+EX1_008;nocoin
+// 1x Tuskarr Totemic + Flame Juggler + Argent Squire + no coin
+hold;shaman;all;AT_046:1:AT_094+EX1_008;nocoin
+// 1x Tuskarr Totemic + Flame Juggler + coin
+hold;shaman;all;AT_046:1:AT_094;coin
+
+// 4-DROP
+// 1x Flamewreathed Faceless + Curve
+hold;shaman;all;OG_024:1:EX1_008+EX1_565+AT_046;coin
+hold;shaman;all;OG_024:1:EX1_008+AT_094+AT_046;coin
+
+
+// - D R U I D ----------------------------------
+// 1-DROP
+// 1x Argent Squire
+hold;shaman;druid;EX1_008:1
+// 2x Argent Squire
+hold;shaman;druid;EX1_008:2;coin
+
+// 1x Flame Juggler
+hold;shaman;druid;AT_094:1
+
+
+// - H U N T E R --------------------------------
+// 1-DROP
+// 1x Lightning Bolt  + Tunnel trog
+hold;shaman;hunter;EX1_238:1:LOE_018
+// 1x Argent Squire
+hold;shaman;hunter;EX1_008:1
+// 2x Argent Squire
+hold;shaman;hunter;EX1_008:2;coin
+
+// 2-DROP
+// 1x Flame Juggler
+hold;shaman;hunter;AT_094:1
+
+
+// - M A G E ------------------------------------
+// 1-DROP
+// 1x Rockbiter Weapon
+hold;shaman;mage;CS2_045:1
+// 1x Argent Squire
+hold;shaman;mage;EX1_008:1
+// 2x Argent Squire
+hold;shaman;mage;EX1_008:2;coin
+
+// 3-DROP
+// 1x Tuskarr Totemic + coin
+hold;shaman;mage;AT_046:1;coin	
+
+
+// - P A L A D I N ------------------------------
+// 1-DROP
+// 1x Argent Squire
+hold;shaman;pala;EX1_008:1
+// 2x Argent Squire
+hold;shaman;pala;EX1_008:2;coin
+
+// 3-DROP
+// 1x Tuskarr Totemic
+hold;shaman;pala;AT_046:1	
+
+
+// - P R I E S T --------------------------------
+// 1-DROP
+// 1x Rockbiter Weapon
+hold;shaman;priest;CS2_045:1
+// 1x Argent Squire
+hold;shaman;priest;EX1_008:1
+// 2x Argent Squire
+hold;shaman;priest;EX1_008:2;coin
+
+// 3-DROP
+// 1x Tuskarr Totemic
+hold;shaman;priest;AT_046:1
+
+
+// - R O G U E ----------------------------------
+// 1-DROP
+// 1x Rockbiter Weapon
+hold;shaman;thief;CS2_045:1
+
+// 3-DROP
+// 1x Feral Spirit
+hold;shaman;thief;EX1_248:1
+
+
+// - S H A M A N --------------------------------
+// 1-DROP
+// 1x Rockbiter Weapon
+hold;shaman;shaman;CS2_045:1
+// 1x Argent Squire
+hold;shaman;shaman;EX1_008:1
+// 2x Argent Squire
+hold;shaman;shaman;EX1_008:2;coin
+
+// 2-DROP
+// 1x Flame Juggler
+hold;shaman;shaman;AT_094:1
+
+// 3-DROP
+// 1x Feral Spirit
+hold;shaman;Shaman;EX1_248:1
+
+
+// - W A R L O C K ------------------------------
+// 1-DROP
+// 1x Argent Squire
+hold;shaman;warlock;EX1_008:1
+// 2x Argent Squire
+hold;shaman;warlock;EX1_008:2;coin
+
+// 1x Flame Juggler
+hold;shaman;warlock;AT_094:1
+
+// 3-DROP
+// 1x Feral Spirit
+hold;shaman;warlock;EX1_248:1
+
+
+// - W A R R I O R ------------------------------
+// 1-DROP
+// 1x Argent Squire
+hold;shaman;warrior;EX1_008:1
+// 2x Argent Squire
+hold;shaman;warrior;EX1_008:2;coin
+
+// 3-DROP
+// 1x Feral Spirit
+hold;shaman;warrior;EX1_248:1
+// 1x Tuskarr Totemic
+hold;shaman;warrior;AT_046:1	

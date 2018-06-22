@@ -1,0 +1,26 @@
+// This File: deck.txt
+//    Author: Sepefeets
+//   Version: 0.1 (17-May-2016)
+// Deck Name: Standard Midrange Hunter (traps)
+//      Hero: Hunter
+// Deck Type: Midrange (Control)
+
+// Cards
+Hunter's Mark	x1
+Fiery Bat	x2
+Snake Trap	x1
+Explosive Trap	x1
+Freezing Trap	x1
+Quick Shot	x2
+Huge Toad	x2
+King's Elekk	x2
+Knife Juggler	x2
+Eaglehorn Bow	x2
+Animal Companion	x2
+Kill Command	x2
+Unleash the Hounds	x1
+Houndmaster	x2
+Infested Wolf	x1
+Azure Drake	x2
+Savannah Highmane	x2
+Call of the Wild	x2

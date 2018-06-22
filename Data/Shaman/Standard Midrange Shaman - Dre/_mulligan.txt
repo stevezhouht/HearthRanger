@@ -1,0 +1,121 @@
+// This File: _mulligan.txt
+// Author: Dre
+// Version: 0.2 (17-Jul-2016)
+// Deck Name: Midrange-shaman
+// Hero: Shaman
+// Deck Type: Midrange (Control)
+
+// - D E C K --------------------------------
+// [1] Argent Squire ×1 (EX1_008)
+// [1] Lightning Bolt x1 (EX1_238)
+// [1] Rockbiter Weapon ×2 (CS2_045)
+// [1] Tunnel Trogg ×2 (LOE_018)
+// [2] Flametongue Totem ×2 (EX1_565)
+// [2] Totem Golem ×2 (AT_052)
+// [3] Feral Spirit x2 (EX1_248)
+// [3] Hex ×2 (EX1_246)
+// [3] Lightning Storm ×2 (EX1_259)
+// [3] Mana Tide Totem ×1 (EX1_575)
+// [3] Tuskarr Totemic ×2 (AT_046)
+// [4] Flamewreathed Faceless x2 (OG_024)
+// [4] Azure Drake x2 (EX1_284)
+// [5] Thunder Bluff Valiant ×2 (AT_049)
+// [6] Fire Elemental x2 (CS2_042)
+// [6] Thing from Below ×2 (OG_028)
+// [8] Al'Akir the Windlord x1 (NEW1_010)
+
+
+// - A L L --------------------------------------
+// 1-DROP
+// Argent Squire
+hold;shaman;all;EX1_008
+// Tunnel Trogg
+hold;shaman;all;LOE_018
+
+// 2-DROP
+// 1x Totem Golem
+hold;shaman;all;AT_052:1
+// 2x Totem Golem + 1-Drop + coin
+hold;shaman;all;AT_052:2:LOE_018/EX1_008;coin
+// 1x Flametongue Totem + 2x Tunnel Trogg + coin
+hold;warlock;druid;EX1_565:1:LOE_018,2,2;coin 
+// 1x Flametongue Totem + Tunnel Trogg + Argent Squire + coin
+hold;shaman;all;EX1_565:1:LOE_018+EX1_008;coin
+
+// 3-DROP
+// 1x Feral Spirit + Tunnel Trogg + coin
+hold;shaman;all;EX1_248:1:LOE_018;coin
+// 1x Feral Spirit + 1-drop + 2-drop
+hold;shaman;all;EX1_248:1:EX1_008+EX1_565/LOE_018+EX1_565
+// Discard Feral spirit when you have Totem Golem and no coin
+discard;shaman;all;EX1_248:2:AT_052;nocoin
+// 1x Tuskarr Totemic
+hold;shaman;all;AT_046:1 
+
+// 4-DROP
+//1x Flamewreathed Faceless + Tunnel Trogg + 2x Totem Golem + coin
+hold;shaman;all;OG_024:1:LOE_018+AT_052,2,2;coin 
+//1x Flamewreathed Faceless + Tuskarr Totemic + 1 or 2-drop + coin
+hold;shaman;all;OG_024:1:AT_046+EX1_008/AT_046+LOE_018/AT_046+AT_052;coin
+
+
+// - D R U I D ----------------------------------
+
+
+
+// - H U N T E R --------------------------------
+
+
+
+// - M A G E ------------------------------------
+// 1-DROP
+// Rockbiter Weapon
+hold;shaman;mage;CS2_045
+
+
+// - P A L A D I N ------------------------------
+
+
+
+// - P R I E S T --------------------------------
+
+
+
+// - R O G U E ----------------------------------
+
+
+
+// - S H A M A N --------------------------------
+// 1-DROP
+// Lightning Bolt + Tunnel Trogg
+hold;shaman;shaman;EX1_238:1:LOE_018
+// Rockbiter Weapon
+hold;shaman;shaman;CS2_045
+
+// 2-DROP
+// Flametongue Totem + Argent Squire / Tunnel Trogg
+hold;shaman;shaman;EX1_565:1:LOE_018/EX1_008
+
+// 3-DROP
+// 1x Lightning Storm + 1-drop + coin
+hold;shaman;shaman;EX1_259:1:LOE_018/EX1_008;coin
+// 1x Lightning Storm + Tunnel Trogg + Totem Golem
+hold;shaman;shaman;EX1_259:1:LOE_018+AT_052
+
+// - W A R L O C K ------------------------------
+// 1-DROP
+// Rockbiter Weapon
+hold;shaman;warlock;CS2_045
+
+// 2-DROP
+// Flametongue Totem + Argent Squire / Tunnel Trogg
+hold;shaman;shaman;EX1_565:1:LOE_018/EX1_008
+
+// 3-DROP
+// 1x Lightning Storm + 1-drop + coin
+hold;shaman;warlock;EX1_259:1:LOE_018/EX1_008;coin
+// 1x Lightning Storm + Tunnel Trogg + Totem Golem
+hold;shaman;warlock;EX1_259:1:LOE_018+AT_052
+
+// - W A R R I O R ------------------------------
+

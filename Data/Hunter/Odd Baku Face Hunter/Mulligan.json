@@ -1,0 +1,38 @@
+{
+	"GameCardId":"Mulligan",
+	"ConfigComment":"These are the Mulligan rules.",
+
+	"Mulligan":
+	{
+		"values":
+		[
+			{
+				"comment": "Hold Abusive Sergeant (CS2_188), Acherus Veteran (ICC_092), Dire Mole (LOOT_258), Fire Fly (UNG_809), Glacial Shard (UNG_205), Blackwald Pixie (GIL_561), and Wolfrider (CS2_124)",
+				"mulligan":"EX1_010, UNG_809, LOOT_258, UNG_803, GIL_561, ICC_092",
+				"condition": "*",
+				"value":"hold",
+			},
+			
+			{
+				"comment": "Hold Southsea Deckhand (CS2_146) if we have a weapon",
+				"mulligan":"CS2_146",
+				"condition": "my_hand(count(), weapon) > 0",
+				"value":"hold",
+			},
+			
+			{
+				"comment": "Hold Candleshot (LOOT_222) or Eaglehorn Bow (EX1_536) if we have Southsea Deckhand",
+				"mulligan":"LOOT_222, EX1_536",
+				"condition": "my_hand(count(), cardid = CS2_146) > 0",
+				"value":"hold",
+			},
+
+			{ 
+				"comment": "Discard all cards not listed as hold",
+				"mulligan":"*",
+				"condition": "*",
+				"value":"discard",
+			}
+		],
+	},
+}

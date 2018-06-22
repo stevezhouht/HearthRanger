@@ -1,0 +1,25 @@
+// This File: deck.txt
+//    Author: Sepefeets
+//   Version: 0.1 (12-Jun-16)
+// Deck Name: Zoolock
+//      Hero: Warlock
+// Deck Type: Zoo (Aggro)
+
+Forbidden Ritual x 2
+Power Overwhelming x 2
+Abusive Sergeant x 2
+Flame Imp x 2
+Possessed Villager x 2
+Voidwalker x 2
+Crazed Alchemist x 1
+Dark Peddler x 2
+Dire Wolf Alpha x 2
+Flame Juggler x 2
+Knife Juggler x 2
+Darkshire Councilman x 2
+Imp Gang Boss x 2
+Defender of Argus x 2
+Gormok the Impaler x 1
+Doomguard x 1
+Leeroy Jenkins x 1
+Sea Giant x 1

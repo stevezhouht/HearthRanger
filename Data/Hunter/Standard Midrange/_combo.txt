@@ -1,0 +1,12 @@
+// This File: _combo.txt
+//    Author: Sepefeets
+//   Version: 0.1 (17-May-2016)
+// Deck Name: Standard Midrange Hunter
+//      Hero: Hunter
+// Deck Type: Midrange (Control)
+
+// STARTER
+// [Nudge] [2] Snake Trap (EX1_554) + [2] Knife Juggler (NEW1_019)
+EX1_554,20;NEW1_019,15;bonus:20;hero:hunter
+// [Nudge] Knife Juggler (NEW1_019) + Unleash the Hounds(EX1_538)
+NEW1_019,15;EX1_538,0;bonus:22;hero:hunter
